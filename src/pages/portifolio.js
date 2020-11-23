@@ -11,12 +11,12 @@ import Wrapper from '../components/wrapper'
 const Layout = loadable(() => import('../components/layout'))
 
 const Image = styled.img`
-  max-height: 220px;
-  max-width: 220px;
+  max-height: 440px;
+  max-width: 440px;
   object-fit: cover;
   object-position: center center;
   border-radius: 10px;
-  box-shadow: 24px 47px 79px -21px rgba(0,0,0,0.51);
+  box-shadow: 12px 24px 40px -10px rgba(0,0,0,0.51);
 `
 
 const JobCard = styled.a`
@@ -32,7 +32,7 @@ const JobCard = styled.a`
 `
 
 const Portifolio = ({ className, location }) => {
-  const title = "Portifolio"
+  const title = "Intereses y publicaciones"
   const { keywords, portifolio } = siteConfig
   return (
     <Layout location={location}>
@@ -42,7 +42,7 @@ const Portifolio = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={withPrefix('/images/pierre-chatel-innocenti-W5INoOK-5eI-unsplash.jpeg')}
+        heroImg={withPrefix('/images/shyam-hCNZEo--1pA-unsplash.jpg')}
         title={title}
       />
 

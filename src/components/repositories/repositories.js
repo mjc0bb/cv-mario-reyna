@@ -7,7 +7,7 @@ import siteConfig from '../../../data/siteConfig'
 import Loader from '../loader'
 
 const endpoint =
-  `https://api.github.com/users/${siteConfig.githubUsername}/repos?type=owner&sort=updated&per_page=5&page=1`
+  `https://api.github.com/users/${siteConfig.mjc0bb}/repos?type=owner&sort=updated&per_page=5&page=1`
 
 
 class Repositories extends React.Component {
@@ -28,7 +28,7 @@ class Repositories extends React.Component {
     const { status } = this.state
     return (
       <div className={this.props.className}>
-        <h2>Latest repositories on Github</h2>
+        <h2>Actividades extracurriculares</h2>
         {status === "loading" && <div className='repositories__loader'><Loader /></div>}
         {status === "ready" &&
           this.state.repos && (
@@ -59,7 +59,7 @@ class Repositories extends React.Component {
               </div>
               <div className="repositories_user-link">
                 <a 
-                  href={`https://github.com/${siteConfig.githubUsername}`}
+                  href={`https://github.com/mjc0bb`}
                   target="_blank"
                 >
                   See all my repositories
