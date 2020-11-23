@@ -241,7 +241,7 @@ module.exports = {
     },
     {
       image: "/images/p_Debateinteruniversitariopenademuerte.jpg",
-      description: "2014 - Orador en debate interuniversitario - Pena de Muerte",
+      description: "2014 - Orador en debate interuniversitario - Pena de Muerte - Embajada Británica",
       url: null
     },
     {
@@ -261,9 +261,9 @@ module.exports = {
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-85829520-1',
-  background_color: '#ffffff',
-  theme_color: '#25303B',
-  fontColor: "#000000cc",
+  background_color: '#F5F2F3',
+  theme_color: '#324759',
+  fontColor: "#263248",
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',

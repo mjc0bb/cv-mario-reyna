@@ -21,16 +21,12 @@ const Link = styled(({ className, icon: Icon, color, ...props }) => (
 
 const Footer = ({ className }) => {
   const {
-    twitter,
     linkedin,
-    github,
   } = siteConfig.social
   return (
     <footer className={className}>
       {`© ${new Date().getFullYear()} ${siteConfig.authorName}`}
       <div>
-        {github && <Link href={github} icon={FaGithub} />}
-        {twitter && <Link href={twitter} icon={FaTwitter} />}
         {linkedin && <Link href={linkedin} icon={FaLinkedin} />}
       </div>
     </footer>
