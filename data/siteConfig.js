@@ -18,11 +18,11 @@ module.exports = {
   <strong>- Análisis de riesgos y políticas de cumplimiento regulatorio</strong><br />
   <strong>- Derecho internacional</strong><br />
   <strong>- Propiedad intelectual</strong><br />`,
-  referenciasLab: ` Gabriela Platero <strong>5302-7663</strong> <br />
-  Juan Pablo Villatoro <strong>5699-9233</strong> <br />
-  Michael Ascoli <strong>4210-1010</strong> <br />
-  Eva Cacacho <strong>4106-0976</strong> <br />
-  Santiago Granados  <strong>5917-0712</strong> <br />`,
+  referenciasLab: ` Gabriela Platero <strong> (+502) 5302-7663</strong> <br />
+  Juan Pablo Villatoro <strong>(+502) 5699-9233</strong> <br />
+  Michael Ascoli <strong>(+502) 4210-1010</strong> <br />
+  Eva Cacacho <strong>(+502) 4106-0976</strong> <br />
+  Santiago Granados  <strong>(+502) 5917-0712</strong> <br />`,
   skills: [
     {
       name: 'Inglés',
@@ -123,7 +123,7 @@ module.exports = {
       description: "Apoyo legal a los notificadores, oficiales y secretaria del Juzgado."
   
     },  {
-      company: "El Registro de la Propiedad Intelectual",
+      company: "El Registro de la Propiedad Intelectual -RPI-",
       begin: {
         month: 'nov',
         year: '2016'
@@ -143,7 +143,7 @@ module.exports = {
       description: "Procuración de trámites administrativos y judiciales de marcas, patentes y diseños industriales. Asistencia legal en elaboración de memoriales, seguimiento con clientes, control y manejo de bases de datos."
   
     },  {
-      company: "El Registro Nacional de las Personas",
+      company: "El Registro Nacional de las Personas -RENAP-",
       begin: {
         month: 'jun',
         year: '2016'
