@@ -241,7 +241,7 @@ module.exports = {
     },
     {
       image: "/images/p_Debateinteruniversitariopenademuerte.jpg",
-      description: "2014 - Orador en debate interuniversitario - Pena de Muerte - Embajada Británica",
+      description: "2014 - Orador en debate interuniversitario - Pena de Muerte - Embajada",
       url: null
     },
     {

@@ -73,7 +73,7 @@ const Portifolio = ({ className, location }) => {
 
 export default styled(Portifolio)`
   .page-content {
-    max-width: 20%;
+    max-width: 45%;
     margin-bottom: 20px;
   }
 
