@@ -52,7 +52,7 @@ const Portifolio = ({ className, location }) => {
             {portifolio.map(job => (
               <Col
                 key={job.description}
-                align="center"
+                align="left"
               >
                 <JobCard
                   as={job.url ? "a" : "div"}
@@ -73,7 +73,7 @@ const Portifolio = ({ className, location }) => {
 
 export default styled(Portifolio)`
   .page-content {
-    max-width: 45%;
+    max-width: 100%;
     margin-bottom: 20px;
   }
 
